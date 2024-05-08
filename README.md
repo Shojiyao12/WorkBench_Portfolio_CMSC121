@@ -18,7 +18,7 @@
 ### Note:
 - This webpage is my personal compilation of all the assignments and laboratory activities, that I've accomplished for CMSC 121 - Internet Technologies.
 
-## Preview of Web Application
+## Preview of Personal Webpage Portfolio
 ![Sample of Personal WorkBench 1](https://github.com/Shojiyao12/User_WorkBench/assets/90734662/8717d56e-2779-4efa-84ac-7bed73fcd1f5)
 ![Sample of Personal WorkBench 2](https://github.com/Shojiyao12/User_WorkBench/assets/90734662/71bb26a6-f73b-42ce-ab31-b7f3945a9eea)
 ![Sample of Personal WorkBench 3](https://github.com/Shojiyao12/User_WorkBench/assets/90734662/0f15d669-ff43-45a1-a435-b71c7f3af555)
