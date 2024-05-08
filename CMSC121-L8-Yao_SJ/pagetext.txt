@@ -1,0 +1,24 @@
+Remember
+the Cow
+
+The best way to manage your tasks.
+Never forget the cow (or anything else) again!
+
+Log in now to manage your to-do list:
+User Name
+Password
+
+"Remember The Cow is nice, but it's a total copy of another site." - PCWorld
+All pages and content © Copyright CowPie Inc.
+
+=====
+
+Incorrect user name / password.  Please try again.
+
+=====
+
+???'s To-Do List
+
+Add to Bottom
+Delete Top Item
+Log Out

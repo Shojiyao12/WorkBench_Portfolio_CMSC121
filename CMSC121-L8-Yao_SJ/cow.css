@@ -1,0 +1,25 @@
+h1{
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 1em;
+}
+
+body, input, textarea, button{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #005AB4;
+	font-size: 14pt;
+}
+
+#cow_logo{
+	display: flex;
+}
+
+.bluebanner{
+	color: white;
+	padding: 0.5em;
+	background-color: #005AB4;
+}
+
+#w3c{
+	display:block;
+}
