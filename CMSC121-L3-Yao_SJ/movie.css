@@ -1,0 +1,151 @@
+h1 {
+	font-family: Verdana, Tahoma, sans-serif;
+    text-shadow: 3px 3px #999999;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+body {
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 8pt;
+	background-image: url("background.png");
+}
+
+#background {
+	text-align: center;
+	width: 100vw;
+    background-image: url("bannerbg.png");
+	background-repeat: repeat-x;
+}
+
+#head-banner {
+	text-align: center;
+	height: 50px;
+}
+
+#info {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: 4px gray solid;
+    width: 800px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+#overview {
+	clear: right;
+    float: right;
+    height: 400px; 
+}
+
+#role {
+	clear: right;
+    float: right;
+	width: 250px;
+    background-color: #A2B964;
+	font-family: "Arial", sans-serif;
+	font-size:8pt;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#rottenlogo {
+	text-align: center;
+    height: 83px;
+    background-image: url("rbg.png");
+	background-repeat: repeat-x;
+}
+
+#icon {
+    text-align: left;
+    height: 83px;
+}
+
+#percentage {
+    font-size: 48pt;
+	font-weight: bold;
+    color: red;
+	width: 550px;
+	position: absolute;
+}
+
+#user-review {
+	text-align: left;
+    font-size: 8pt;
+    font-weight: bold;
+	margin-left: 5px;
+    column-count: 2;
+	flex: 0 0 47%;
+	padding: 2%;
+	overflow: hidden;
+}
+
+.critic {
+	border: 2px solid gray; 
+	border-radius: 10px;
+	background-color: #E8DC9B;
+	padding: 8px;
+	padding-left: 5px;
+	overflow: hidden;
+}
+
+.critic img {
+    float: left;
+	margin-right: 5px;
+}
+
+.writer  {
+	margin-left: 5px;
+	margin-bottom: 20pt;
+}
+
+.writer img {
+	float: left;
+}
+
+span.source {
+	font-style: italic;
+}
+
+dt {
+    margin-top: 10pt;
+	font-weight: bold;
+	
+}
+
+dl{
+	padding-left: 10pt;
+	padding-right: 10pt;
+	margin-top: 10pt;
+	text-align: left;
+}
+
+#current-page {
+	padding: 5px;
+	position: relative;
+	width: 100%;
+	left: 0;
+    bottom: 0;
+    float: left;
+    background: #A2B964;
+}
+
+.page {
+	margin: 0;
+}
+
+.validator {
+	float: right;
+	opacity: 0.5;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}

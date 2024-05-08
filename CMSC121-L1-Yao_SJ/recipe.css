@@ -1,0 +1,88 @@
+h1.header {
+	background-color: #F0F0F0;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	text-align: center;
+	top: 50%;
+    left: 50%;
+	vertical-align: center;
+	position: relative;
+    transform: translate(-50%, -50%);
+	text-decoration: underline;
+	color: #A4A400;
+	font-size: 22pt;
+	font-weight: bold;
+	display: inline-block;
+	letter-spacing: 0.25cm;
+}
+
+.Bold {
+	font-weight: bold;
+}
+
+h2 {
+	margin-bottom: 70px;
+	background-color: #F0F0F0;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	text-align: left;
+	text-decoration: underline;
+	color: #A4A400;
+	font-size: 18pt;
+	display: inline;
+	letter-spacing: 0.25cm;
+}
+
+body {
+	
+	background-color: white;
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+	background-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg');
+}
+
+hr {
+	margin-bottom: 20px;
+}
+
+p.highlight {
+	background-color: #FFFFA8;
+	font-style: italic;
+	margin-left: 40px;
+}
+
+.text-yellow {
+	color: #A4A400;
+}
+
+.copyright {
+	font-family: "Courier New", monospace;
+	line-height: 0.2;
+}
+
+.tab1 {
+	padding-left: 35px;
+	
+}
+
+.tab2 {
+	padding-left: 98px;
+}
+
+.abbreviation {
+  position: relative;
+}
+
+.abbreviation::after {
+  position: absolute;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #333;
+  color: #fff;
+  top: 100%;
+  left: 50%;
+  display: none; 
+}
+
+.abbreviation:hover::after {
+  display: block;
+}
