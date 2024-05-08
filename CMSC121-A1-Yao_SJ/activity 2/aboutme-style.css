@@ -1,0 +1,48 @@
+
+h1 {
+    color: #ff6600; 
+    font-family: "Arial Black", sans-serif; 
+}
+
+p {
+    color: #333; 
+    font-family: "Trebuchet MS", sans-serif; 
+}
+
+p:first-letter{
+	float:left;
+	line-height: 1.5;
+	width: 20cm;
+	font-size: 150%
+}
+
+h2 {
+    color: #E74C3C; 
+    font-family: Georgia, serif; 
+}
+
+ul li {
+    color: #123d40; 
+    font-family: "Courier New", monospace; 
+}
+
+ol a {
+    color: #db2c23; 
+    font-family: "Times New Roman", serif; 
+    text-decoration: none; 
+}
+	a:hover {
+		text-decoration: underline;
+	}
+
+img {
+    max-width: 100%; 
+	height: auto;
+	display: block;
+	margin: 10px auto;
+}
+
+body {
+    background-color: #d0d9ce; 
+    text-align: justify; 
+}
