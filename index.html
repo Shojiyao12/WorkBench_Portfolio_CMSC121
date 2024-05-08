@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaw Jie's WorkBench!</title>
+    <link rel="stylesheet" href="index-styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+			<div class = "center">
+				<h1>Welcome to Shaw Jie's WorkBench!</h1>
+				<p>Hello there, thank you for taking the time to go through this webpage.</p>
+				<p>Here you can access all my Assignments and Lab Activities</p>
+			</div>
+        </section>
+		
+        <section id="about">
+            <h1>ABOUT ME</h1>
+			<p class="justified-text">
+				My name is Shaw Jie Yao, I am a BS Computer Science student from the University of the Philippines Tacloban College.
+			    As you can see from the overall look and feel of this webpage, I am sort of a movie-fanatic.
+				Ongoing, you can either click the 'Projects' tab found at the very top of this webpage or just scroll down manually.
+				By doing so, you will be able to view a list of all the web-based projects/activities I have accomplished so far.
+			</p>
+			<div class = "center">
+			<p>
+				<img class="img-zoom" src="https://i.gifer.com/OT1F.gif" alt="Pacific Rim">
+			</p>
+			
+			<p>Learn more about the movie:</p>
+			<div id = "project-list2"><button onclick="navigateTo('https://www.rottentomatoes.com/m/pacific_rim_2013')" title="Pacific Rim - Rotten Tomatoes">Rotten Tomatoes.com</button></div>
+				
+			</div>
+        </section>
+		
+        <section id="projects">
+			<h1>PROJECTS</h1>
+			<div id = "project-list">
+				<h2>Assignments</h2>
+				<button onclick='toggleButton()' style='background-color: #D30000; color: #fff; font-weight: bold;'>SHOW ASSIGNMENTS</button><br>
+				<div id='hideButton' class='hidden'>
+					<iframe id = "preview" title = "About Me" src = "http://localhost/CMSC121-A1-Yao_SJ/activity 2/aboutme.html"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-A1-Yao_SJ/activity 2/aboutme.html')" title="About Me">Assignment 1 - About Me</button>
+					
+					<br><iframe id = "preview" title = "V's Journal" src = "http://localhost/CMSC121-A2-Yao_SJ/activity 3/journal.html"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-A2-Yao_SJ/activity 3/journal.html')" title="V's Journal">Assignment 2 - V's Journal</button>
+					
+					<br><iframe id = "preview" title = "190M Music Playlist Viewer" src = "http://localhost/CMSC121-A3-Yao_SJ/music.php"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-A3-Yao_SJ/music.php')" title="190M Music Playlist Viewer">Assignment 3 - 190M Music Playlist Viewer</button>
+					
+					<br><iframe id = "preview" title = "Buy Your Way to a Better Education!" src = "http://localhost/CMSC121-A4-Yao_SJ/buyagrade.html"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-A4-Yao_SJ/buyagrade.html')" title="Buy Your Way to a Better Education!">Assignment 4 - Buy Your Way to a Better Education!</button>
+					
+					<br><iframe id = "preview" title = "Pimp My Text!" src = "http://localhost/CMSC121-A5-Yao_SJ/pimpmytext.html"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-A5-Yao_SJ/pimpmytext.html')" title="Pimp My Text!">Assignment 5 - Pimp My Text!</button>
+					
+					<br><iframe id = "preview" title = "Maze!" src = "http://localhost/CMSC121-A6-Yao_SJ/maze.html"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-A6-Yao_SJ/maze.html')" title="Maze!">Assignment 6 - Maze!</button>
+					
+					<br><iframe id = "preview" title = "Urban Dictionary Lookup" src = "http://localhost/CMSC121-A7-Yao_SJ/urban.html"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-A7-Yao_SJ/urban.html')" title="Urban Dictionary Lookup">Assignment 7 - Urban Dictionary Lookup</button>
+					
+					<br><iframe id = "preview" title = "Mr. Potato Head" src = "http://localhost/CMSC121-A8-Yao_SJ/potato.html"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-A8-Yao_SJ/potato.html')" title="Mr. Potato Head">Assignment 8 - Mr. Potato Head</button>
+				</div>
+				<hr>
+				<br><h2>Laboratory Actvities</h2>
+				<button onclick='toggleButton2()' style='background-color: #D30000; color: #fff; font-weight: bold;'>SHOW LABORATORY ACTIVITIES</button><br>
+				<div id='hideButton2' class='hidden'>
+					<iframe id = "preview" title = "Grandma's Lemon Meringue Pie" src = "http://localhost/CMSC121-L1-Yao_SJ/index.html"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-L1-Yao_SJ/index.html')" title="Grandma's Lemon Meringue Pie">Lab Activity 1 - Grandma's Lemon Meringue Pie</button>
+					
+					<br><iframe id = "preview" title = "TMNT - Rancid Tomatoes" src = "http://localhost/CMSC121-L2-Yao_SJ/tmnt.html"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-L2-Yao_SJ/tmnt.html')" title="TMNT - Rancid Tomatoes">Lab Activity 2 - TMNT - Rancid Tomatoes</button>
+					
+					<br><iframe id = "preview" title = "Rancid Tomatoes" src = "http://localhost/CMSC121-L3-Yao_SJ/movie.php"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-L3-Yao_SJ/movie.php')" title="Rancid Tomatoes">Lab Activity 3 - Rancid Tomatoes</button>
+					
+					<br><iframe id = "preview" title = "NerdLuv" src = "http://localhost/CMSC121-L4-Yao_SJ/index.php"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-L4-Yao_SJ/index.php')" title="NerdLuv">Lab Activity 4 - NerdLuv</button>
+					
+					<br><iframe id = "preview" title = "My Movie Database (MyMDb" src = "http://localhost/CMSC121-L5-Yao_SJ/index.php"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-L5-Yao_SJ/index.php')" title="My Movie Database (MyMDb">Lab Activity 5 - My Movie Database (MyMDb)</button>
+					
+					<br><iframe id = "preview" title = "Fifteen Puzzle" src = "http://localhost/CMSC121-L6-Yao_SJ/fifteen.html"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-L6-Yao_SJ/fifteen.html')" title="Fifteen Puzzle">Lab Activity 6 - Fifteen Puzzle</button>
+					
+					<br><iframe id = "preview" title = "Baby Names" src = "http://localhost/CMSC121-L7-Yao_SJ/names.html"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-L7-Yao_SJ/names.html')" title="Baby Names">Lab Activity 7 - Baby Names</button>
+					
+					<br><iframe id = "preview" title = "Remember the Cow" src = "http://localhost/CMSC121-L8-Yao_SJ/index.php"></iframe><br>
+					<button onclick="navigateTo('http://localhost/CMSC121-L8-Yao_SJ/index.php')" title="Remember the Cow">Lab Activity 8 - Remember the Cow</button>
+				</div>
+				
+			</div>
+
+			<p class = "center">
+				<img class="img-zoom" src="https://www.ghostlittle.com/hs-fs/hub/163348/file-227865086-gif/images/pacific-rim-rodan.gif?width=600&name=pacific-rim-rodan.gif" alt="Pacific Rim">
+			</p>
+
+        </section>
+		
+        <section id="contact">
+			<p>Enjoying, what you saw so far?</p>
+            <h1>Let's keep in touch</h1>
+            <form id="myForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <input type="submit" value="Send">
+            </form>
+			
+			<div class = "validator">
+				<a href="https://validator.w3.org/#validate_by_uri"><img src="w3c-html.png" alt="Valid HTML 5"></a>
+				<a href="https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options"><img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS"></a>
+			</div>
+        </section>
+		
+    </main>
+    <footer>
+        <p>&copy; Copyright 2023 - Shaw Jie's Workbench!</p>
+    </footer>
+	
+	<script>
+		document.getElementById('myForm').addEventListener('submit', function(event) {
+		  event.preventDefault(); // Prevent form submission
+
+		  // Get form data
+		  const formData = new FormData(event.target);
+		  const formObject = {};
+		  formData.forEach((value, key) => {
+			formObject[key] = value;
+		  });
+
+		  // Convert form data to plain text
+		  const plainTextData = Object.entries(formObject)
+			.map(([key, value]) => `${key}: ${value}`)
+			.join('\n');
+
+		  // Blob containing the plain text data
+		  const blob = new Blob([plainTextData], { type: 'text/plain' });
+
+		  // link element and trigger a click to download the file
+		  const a = document.createElement('a');
+		  a.href = URL.createObjectURL(blob);
+		  a.download = 'formData.txt';
+		  document.body.appendChild(a);
+		  a.click();
+		  document.body.removeChild(a);
+		});
+		
+		function navigateTo(url) {
+		  window.location.href = url;
+		}
+		
+		function toggleButton() {
+			var hideButton = document.getElementById('hideButton');
+			hideButton.classList.toggle('hidden');
+		}
+		
+		function toggleButton2() {
+			var hideButton2 = document.getElementById('hideButton2');
+			hideButton2.classList.toggle('hidden');
+		}
+	</script>
+</body>
+</html>
